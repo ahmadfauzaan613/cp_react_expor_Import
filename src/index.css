@@ -47,19 +47,6 @@ body {
   background: #555;
 }
 
-.BackgroundHero {
-  background-image: url('Assets/content_4.png');
-  height: 50vh;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  background-attachment: fixed;
-  /* justify-content: center; */
-  align-items: center;
-}
-
 .BackgroundHero2 {
   background-image: url('Assets/r8.png');
   height: 20vh;
