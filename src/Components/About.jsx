@@ -1,18 +1,36 @@
 import React from 'react'
-import Content6 from '../Assets/content_6.png'
 function About() {
   return (
-    <div className="container mx-auto grid grid-cols-12 py-[5rem]">
-      <div className="col-span-7">
-        <p className="text-[32px] font-bold pb-3 text-[#557A46]">About Us</p>
-        <p className="text-[16px] w-[40vw]">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, impedit quam itaque voluptatum animi fugit nesciunt in, brreiciendis assumenda vero earum quo illum praesentium? Dignissimos deleniti eum animi ab atque? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, impedit
-          quam itaque voluptatum animi fugit nesciunt in, brreiciendis assumenda vero earum quo illum praesentium? Dignissimos deleniti eum animi ab atque? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, impedit quam itaque voluptatum animi fugit nesciunt in, brreiciendis assumenda
-          vero earum quo illum praesentium? Dignissimos deleniti eum animi ab atque?
+    <div className="desktop3:mx-[10%] desktop:mx-[5%] desktop2:mx-[5%] phone:px-[5%] tablet:px-[5%] laptop:px-[5%] py-[3rem]" id="about">
+      <p className="desktop3:text-[42px] desktop2:text-[36px] desktop:text-[30px] text-[#AA941E] phone:text-center phone:text-[30px] phone:pb-3 tablet:text-center tablet:text-[30px] tablet:pb-3 laptop:text-center laptop:text-[30px] laptop:pb-3">About</p>
+      <div className="desktop3:grid desktop3:grid-cols-2 desktop3:gap-5 desktop2:grid desktop2:grid-cols-2 desktop2:gap-5 desktop:grid desktop:grid-cols-2 desktop:gap-7">
+        <p className="text-[16px] leading-[2rem] py-3 phone:text-justify tablet:text-justify laptop:text-justify">
+          <span className="font-bold">PT. Ghandafi Berakah Utama</span> is your trusted supplier and exporter of high quality shallot and cinnamon products in Indonesia. The production site is located in the long stretch of Indonesia on the island of Sumatra. Our product lines are agribusiness, such
+          as{' '}
+          <span className="font-bold">
+            shallots, cinnamon, <span className="font-normal">and</span> turmeric
+          </span>
+          . We are committed to delivering the highest quality products from raw materials, production process to packaging. With the target of a sustainable and long-term relationship.
         </p>
-      </div>
-      <div className="col-span-5 w-full h-[35vh] bg-black relative rounded-[5px]">
-        <img src={Content6} alt="" className="absolute inset-0 w-full h-full object-cover rounded-[5px]" />
+        <div className="border border-[#AA941E] rounded-[5px] p-3 phone:my-2  tablet:my-2 laptop:my-2">
+          <p className="text-[22px] text-[#AA941E] font-bold phone:text-center tablet:text-center laptop:text-center">Visi</p>
+          <div className="flex items-start gap-3 pt-3">
+            <p className="text-[16px] font-bold">1.</p>
+            <p className="text-[16px]">To be a trusted and leading international trading company</p>
+          </div>
+          <div className="mt-3">
+            <p className="text-[22px] text-[#AA941E] font-bold phone:text-center tablet:text-center laptop:text-center">Misi</p>
+            <div className="flex items-start gap-3 py-3">
+              <p className="text-[16px] font-bold">1.</p>
+              <p className="text-[16px]">Conduct general and specialized trading for food and non-food products from upstream to downstream, targeting domestic and international markets.</p>
+            </div>
+            <div className="flex items-start gap-3">
+              <p className="text-[16px] font-bold">2.</p>
+              <p className="text-[16px]">Deliver quality products, competitive prices, and usefulness to ensure customer satisfaction, and establish sustainable partnerships.</p>
+            </div>
+            <p className="text-[16px] "></p>
+          </div>
+        </div>
       </div>
     </div>
   )

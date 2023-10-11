@@ -7,6 +7,11 @@
   scroll-behavior: smooth;
 }
 
+p {
+  padding: 0;
+  margin: 0;
+}
+
 html,
 body {
   margin: 0;
@@ -56,7 +61,7 @@ body {
 }
 
 .BackgroundHero2 {
-  background-image: url('Assets/content_9.png');
+  background-image: url('Assets/r8.png');
   height: 20vh;
   width: 100%;
   background-position: center;

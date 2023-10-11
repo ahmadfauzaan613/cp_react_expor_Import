@@ -2,48 +2,28 @@ import React from 'react'
 import location from '../Assets/location.png'
 import email from '../Assets/mail.png'
 import phone from '../Assets/telephone.png'
-import map2 from '../Assets/map2.png'
+import ContactCard from './ContactCard'
+
 function Contact() {
   return (
-    <div className="container  mx-auto rounded-[5px] border border-[#557A46] " id="contact">
-      <div className="grid grid-cols-12 gap-4">
-        <div className="col-span-6 p-5">
-          <div>
-            <p className="text-[32px] font-bold text-[#557A46]">Get In Touch</p>
-            <p className="text-[16px] text-[#8a8989]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et corporis magnam eaque cum non laboriosam quod quia, dolor delectus aliquid. Similique</p>
-          </div>
-          <form action="" className="mt-9 space-y-6">
-            <input type="text" placeholder="Full Name" className="w-full border border-[#557A46] rounded-[3px] p-2 outline-none" />
-            <input type="email" placeholder="Email" className="w-full border border-[#557A46] rounded-[3px] p-2 outline-none" />
-            <input type="number" placeholder="Phone Number" className="w-full border border-[#557A46] rounded-[3px] p-2 outline-none" />
-            <textarea name="Message" placeholder="Message" id="" cols="30" rows="10" className="border border-[#557A46] outline-none p-3 rounded-[3px] w-full"></textarea>
-            <button className="border border-[#557A46] p-2 w-full text-[#557A46] font-bold hover:bg-[#557A46] hover:text-white rounded-[5px]">Send Message</button>
-          </form>
+    <div className="desktop3:mx-[10%] desktop:mx-[5%] desktop2:mx-[5%] phone:px-[5%] tablet:px-[5%] laptop:px-[5%] py-[3rem]" id="contact">
+      <p className="desktop3:text-[42px] desktop2:text-[36px] desktop:text-[30px] text-[#AA941E] phone:text-center phone:text-[30px] phone:pb-3 tablet:text-center tablet:text-[30px] tablet:pb-3 laptop:text-center laptop:text-[30px] laptop:pb-3">Contact Us</p>
+      <div className="grid desktop3:grid-cols-12 desktop3:mt-5 laptop:grid-cols-2 desktop:grid-cols-2 desktop:mt-5 desktop2:grid-cols-2 desktop2:mt-5 gap-5 ">
+        <div className="desktop3:col-span-5 space-y-3">
+          <ContactCard imagee={location} statuss={'location'} title={` Jl budisari no.16A RT002/004 Kel. Umbansari Kec. Rumbai, kota Pekanbaru, Riau, Indonesia`} />
+          <ContactCard imagee={email} statuss={'email'} title={` ghdafi@gfhadafi.company.com`} />
+          <ContactCard imagee={phone} statuss={'wa'} title={` +6288271974588`} />
         </div>
-        <div className="bg-[#557A46] col-span-6">
-          <div className="p-5">
-            <p className="text-[32px] font-bold text-white">Contact Us</p>
-            <div className="mt-5 space-y-8">
-              <hr className="w-full text-white" />
-              <div className="col-span-5 w-full h-[35vh] bg-black relative rounded-[5px]">
-                <img src={map2} alt="" className="absolute inset-0 cursor-pointer w-full h-full object-cover rounded-[5px]" />
-              </div>
-              <div className="flex items-center gap-5">
-                <img src={location} alt="" className="w-[1.5vw] h-full" />
-                <p className="text-white text-[18px]">
-                  Jl budisari no.16A RT002/004 Kel. Umbansari Kec. Rumbai, <br /> kota Pekanbaru, Riau, Indonesia
-                </p>
-              </div>
-              <div className="flex items-center gap-5">
-                <img src={email} alt="" className="w-[1.5vw] h-full" />
-                <p className="text-white text-[18px]">ghdafi@gfhadafi.company.com</p>
-              </div>
-              <div className="flex items-center gap-5">
-                <img src={phone} alt="" className="w-[1.5vw] h-full" />
-                <p className="text-white text-[18px]">+6281393213213</p>
-              </div>
-            </div>
-          </div>
+        <div className="rounded-[5px] desktop3:col-span-7 border border-[#AA941E] p-3">
+          <p className="pb-1 text-[24px] font-bold">Send Message</p>
+          <p className="text-[#a0a0a0] text-[14px]">Your message is very important to us. We are committed to providing the best service and ensuring your satisfaction.</p>
+          <form action="" className="mt-4 space-y-3">
+            <input type="text" placeholder="Full Name" className="w-full border border-[#AA941E] rounded-[3px] p-2 outline-none" />
+            <input type="email" placeholder="Email" className="w-full border border-[#AA941E] rounded-[3px] p-2 outline-none" />
+            <input type="number" placeholder="Phone Number" className="w-full border border-[#AA941E] rounded-[3px] p-2 outline-none" />
+            <textarea name="Message" placeholder="Message" id="" cols="30" rows="0" className="border border-[#AA941E] outline-none p-3 rounded-[3px] w-full"></textarea>
+            <button className="border border-[#AA941E] p-2 desktop3:w-[20vw] phone:w-full tablet:w-full  text-[#AA941E] font-bold hover:bg-[#AA941E] hover:text-white rounded-[5px]">Send Message</button>
+          </form>
         </div>
       </div>
     </div>
