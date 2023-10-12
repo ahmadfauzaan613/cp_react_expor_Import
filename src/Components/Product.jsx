@@ -1,6 +1,6 @@
 import React from 'react'
 import ProductionItem from './ProductionItem'
-import content5 from '../Assets/content_5.png'
+import content5 from '../Assets/bawang.png'
 import icon8 from '../Assets/icon_8.png'
 import kunyit from '../Assets/pngegg.png'
 function Product() {

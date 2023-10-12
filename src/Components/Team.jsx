@@ -10,7 +10,7 @@ function Team() {
           Meet Our <br className="phone:hidden tablet:hidden laptop:hidden" /> Core Team
         </p>
       </div>
-      <div className="desktop3:flex desktop3:items-start desktop3:justify-around desktop:flex desktop:items-start desktop:justify-around desktop2:flex desktop2:items-start desktop2:justify-around mt-8 gap-5  tablet:grid tablet:grid-cols-2 laptop:grid laptop:grid-cols-2">
+      <div className="desktop3:flex desktop3:items-center desktop3:justify-around desktop:flex desktop:items-center desktop:justify-around desktop2:flex desktop2:items-center desktop2:justify-around mt-8 gap-5  tablet:grid tablet:grid-cols-2 laptop:grid laptop:grid-cols-2">
         <div className="tablet:hidden laptop:hidden">
           <p className="desktop3:text-[40px] desktop:text-[35px] desktop2:text-[35px] font-bold phone:mb-[2rem] phone:text-[24px] phone:text-center tablet:mb-[2rem] tablet:text-[28px] tablet:text-center laptop:mb-[2rem] laptop:text-[28px] laptop:text-center">
             Meet Our <br className="phone:hidden tablet:hidden laptop:hidden" /> Core Team

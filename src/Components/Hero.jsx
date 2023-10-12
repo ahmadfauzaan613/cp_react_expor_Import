@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../Assets/f5.png'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 function Hero() {
   return (
     <div className="bg-black border-t border-[#AA941E]">
@@ -13,7 +14,8 @@ function Hero() {
             <span className="material-symbols-outlined">description</span>Portofolio Company
           </button>
         </div>
-        <img src={logo} alt="" className="desktop3:w-[30vw] desktop:w-[30vw] desktop2:w-[30vw]  phone:w-[70vw] phone:mx-auto phone:mb-10 phone:mt-5 tablet:w-[50vw] tablet:mx-auto tablet:mb-10 tablet:mt-5 laptop:w-[50vw] laptop:mx-auto laptop:mb-10 laptop:mt-5" />
+        <LazyLoadImage src={logo} className="desktop3:w-[30vw] desktop:w-[30vw] desktop2:w-[30vw]  phone:w-[70vw] phone:mx-auto phone:mb-10 phone:mt-5 tablet:w-[50vw] tablet:mx-auto tablet:mb-10 tablet:mt-5 laptop:w-[50vw] laptop:mx-auto laptop:mb-10 laptop:mt-5" />
+
         {/* <div className="w-[35vw] h-[40vh] desktop:w-[40vw] desktop:h-[30vh] desktop2:w-[35vw] desktop2:h-[40vh] bg-black relative rounded-[5px] phone:w-full phone:mb-4 laptop:w-full laptop:mb-4 tablet:w-full tablet:mb-4">
         <img src={r8} alt="" className="absolute inset-0 w-full h-full object-cover desktop3:rounded-[5px]" />
       </div> */}

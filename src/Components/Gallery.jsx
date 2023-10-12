@@ -1,21 +1,17 @@
-import React, { useEffect } from 'react'
-import Content1 from '../Assets/content/6145a8a8627d4.jpg'
+import React from 'react'
+import Content1 from '../Assets/content/64b11f9342d7b.jpg'
 import Content2 from '../Assets/content/WhatsApp Image 2023-10-06 at 20.49.27_b3f24394.jpg'
 import Content3 from '../Assets/content/WhatsApp Image 2023-10-06 at 20.51.13_6ae0b61f.jpg'
 import Content4 from '../Assets/content/WhatsApp Image 2023-10-06 at 20.51.42_1ee0791e.jpg'
 import Content5 from '../Assets/content/WhatsApp Image 2023-10-08 at 19.15.11_6dd0f9ec.jpg'
 import Content6 from '../Assets/content/WhatsApp Image 2023-10-08 at 19.24.56_fcf2eadb.jpg'
 import Content7 from '../Assets/content/r2.jpg'
-import Content8 from '../Assets/content/r3.jpg'
+import Content8 from '../Assets/content/kunyit-garut-potensial-untuk-diekspor_18030.jpg'
 import ImageGallery from './ImageGallery'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+
 import { useNavigate } from 'react-router-dom'
 
 function Gallery() {
-  useEffect(() => {
-    AOS.init()
-  }, [])
   const navigate = useNavigate()
   return (
     <div className="desktop3:mx-[10%] phone:px-[5%] tablet:px-[5%] laptop:mx-[5%] desktop:mx-[5%] desktop2:mx-[5%] mt-[4rem] pb-[2rem]" id="gallery">

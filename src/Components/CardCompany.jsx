@@ -1,10 +1,11 @@
 import React from 'react'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 function CardCompany(props) {
   return (
     <div className="border border-[#AA941E] rounded-[5px] ">
       <div className="w-full h-[35vh] relative">
-        <img src={props.img} alt="" className="absolute inset-0 w-full h-full object-cover " />
+        <LazyLoadImage src={props.img} className="absolute inset-0 w-full h-full object-cover " />
       </div>
       {props.type === 'shipping' && (
         <div className="p-3">

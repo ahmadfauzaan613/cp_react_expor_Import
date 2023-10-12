@@ -14,6 +14,10 @@ import Content7 from '../Assets/content/r2.jpg'
 import Content8 from '../Assets/content/r3.jpg'
 import Content9 from '../Assets/content/r5.jpg'
 import Content10 from '../Assets/content/r7.jpg'
+import Content11 from '../Assets/content/hasil-pertanian-5.webp'
+import Content12 from '../Assets/content/kunyit(1)3.jpeg'
+import Content13 from '../Assets/content/64b11f9342d7b.jpg'
+import Content14 from '../Assets/content/kunyit-garut-potensial-untuk-diekspor_18030.jpg'
 
 function Gallerry() {
   return (
@@ -32,6 +36,10 @@ function Gallerry() {
           <ImageGallery imagee={Content8} />
           <ImageGallery imagee={Content9} />
           <ImageGallery imagee={Content10} />
+          <ImageGallery imagee={Content11} />
+          <ImageGallery imagee={Content12} />
+          <ImageGallery imagee={Content13} />
+          <ImageGallery imagee={Content14} />
         </div>
       </div>
       <div className="absolute bottom-5 right-5 cursor-pointer z-10">
