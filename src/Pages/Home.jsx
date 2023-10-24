@@ -19,7 +19,7 @@ function Home() {
       <About />
       <ValueCompany />
       <Product />
-      <CompanyTerm />
+      {/* <CompanyTerm /> */}
       <div className="BackgroundHero2 desktop3:mt-16 desktop3:mb-8 phone:mt-5 tablet:mt-5 laptop:mt-5 desktop:mt-12 desktop2:mt-12">
         <p className="desktop3:text-[42px] desktop:text-[34px] desktop2:text-[34px] phone:text-[28px] phone:text-center tablet:text-[24px] tablet:text-center laptop:text-[28px] laptop:text-center font-bold  text-white">Are you interested in purchasing?</p>
       </div>
