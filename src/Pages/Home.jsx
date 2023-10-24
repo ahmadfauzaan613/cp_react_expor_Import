@@ -8,7 +8,7 @@ import Contact from '../Components/Contact'
 import Footer from '../Components/Footer'
 import whatsapp from '../Assets/whatsapp.png'
 import ValueCompany from '../Components/ValueCompany'
-import CompanyTerm from '../Components/CompanyTerm'
+// import CompanyTerm from '../Components/CompanyTerm'
 import Team from '../Components/Team'
 
 function Home() {
