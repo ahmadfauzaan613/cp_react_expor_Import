@@ -11,7 +11,7 @@ function Contact() {
       <div className="grid desktop3:grid-cols-12 desktop3:mt-5 laptop:grid-cols-2 desktop:grid-cols-2 desktop:mt-5 desktop2:grid-cols-2 desktop2:mt-5 gap-5 ">
         <div className="desktop3:col-span-5 space-y-3">
           <ContactCard imagee={location} statuss={'location'} title={` Jl budisari no.16A RT002/004 Kel. Umbansari Kec. Rumbai, kota Pekanbaru, Riau, Indonesia`} />
-          <ContactCard imagee={email} statuss={'email'} title={` ghdafi@gfhadafi.company.com`} />
+          <ContactCard imagee={email} statuss={'email'} title={`abumuhammad@ghandafi.com`} />
           <ContactCard imagee={phone} statuss={'wa'} title={` +6288271974588`} />
         </div>
         <div className="rounded-[5px] desktop3:col-span-7 border border-[#2B78BB] p-3">

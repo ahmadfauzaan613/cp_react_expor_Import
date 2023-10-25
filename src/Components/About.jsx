@@ -15,7 +15,7 @@ function About() {
             </span>
             . We are committed to delivering the highest quality products from raw materials, production process to packaging. With the target of a sustainable and long-term relationship.
           </p>
-          <div className="flex items-center gap-7">
+          <div className="desktop3:flex desktop3:gap-7 laptop:flex laptop:gap-7 laptop:mb-4 desktop:flex desktop:gap-7 desktop:mb-4 desktop2:flex desktop2:gap-7 desktop2:mb-4 items-center phone:grid phone:justify-items-center phone:gap-3 phone:my-5 tablet:grid tablet:justify-items-center tablet:gap-3 tablet:my-5 ">
             <a href={certiPT} download="Company Certificate PT. Ghandafi Berkah Utama.pdf" target="_blank" rel="noreferrer">
               <p className="text-[#AFBD77] flex items-center gap-2 hover:font-bold cursor-pointer italic">
                 <span class="material-symbols-outlined">description</span>Company Certificate
