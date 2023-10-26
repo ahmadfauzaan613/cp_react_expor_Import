@@ -18,7 +18,7 @@ function Product() {
         <ProductionItem title={'Turmeric'} code={'Hs Code 0910.30.00'} desc={'Including terna plants, pseudo-stemmed, can reach 100 cm in height.'} image={kunyit} />
         <ProductionItem title={'Turmeric Double Polish'} bgCard={'one'} code={''} desc={'Curcumin 4%, 13% moisture, content Size 3 cm to 6 cm for dried turmeric, size Double polished Sack contents are 15, 35 and 50 Capacity of 50 tons per month'} image={turmeric} />
         <ProductionItem title={'Elephant Ginger'} bgCard={'two'} code={'HS code 0910'} desc={'Whole and clean elephant ginger rhizomes, size according to rhizome type standard, moisture content ranges from 12-14% for dry rhizomes'} image={jaheGajah} />
-        <ProductionItem title={'Pinang'} code={'HS code 0802800'} desc={'Specifications, 20% sugar content, 50% sugar content, size 10-15cm'} image={Pinang} />
+        <ProductionItem title={'Betel Nut'} code={'HS code 0802800'} desc={'Specifications, 20% sugar content, 50% sugar content, size 10-15cm'} image={Pinang} />
         <ProductionItem title={'Cardamoms'} bgCard={'one'} code={' HS code 0908'} desc={'Specifications, moisture content 13%, size 5-8mm, oil content > 2%'} image={ketumbar} />
         <ProductionItem title={'Cocoa Beans'} bgCard={'two'} code={'HS code 1801'} desc={' 7% moisture content dry, 1% broken or damaged condition'} image={cocoa} />
       </div>
